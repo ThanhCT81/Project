@@ -7,10 +7,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import T from "./T.png";
 import "./Header.css";
+import { BsCart3 } from 'react-icons/bs'
 export default function Header() {
   return (
     <div>
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar bg="light" expand="lg" >
         <Container fluid>
           <Navbar.Brand>
             <Link to="/">
@@ -20,7 +21,7 @@ export default function Header() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
+              className="my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
@@ -74,6 +75,7 @@ export default function Header() {
               <Button variant="outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
+          < BsCart3/>
         </Container>
       </Navbar>
     </div>

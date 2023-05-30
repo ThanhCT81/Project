@@ -1,3 +1,12 @@
 .bg-light {
   background-color: #e1cfbb !important;
 }
+.nav-link {
+  font-family: "Bitter", serif !important;
+  color: #603d2e;
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-link:hover {
+  color: #fff;
+}
