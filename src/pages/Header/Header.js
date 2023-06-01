@@ -7,11 +7,11 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import T from "./T.png";
 import "./Header.css";
-import { BsCart3 } from 'react-icons/bs'
+import { BsCart3 } from "react-icons/bs";
 export default function Header() {
   return (
-    <div>
-      <Navbar bg="light" expand="lg" >
+    <header>
+      <Navbar bg="light" expand="lg">
         <Container fluid>
           <Navbar.Brand>
             <Link to="/">
@@ -75,9 +75,9 @@ export default function Header() {
               <Button variant="outline-success">Search</Button>
             </Form>
           </Navbar.Collapse>
-          < BsCart3/>
+          <BsCart3 />
         </Container>
       </Navbar>
-    </div>
+    </header>
   );
 }

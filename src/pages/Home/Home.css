@@ -1,8 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    height: 400vh;
+
+.mySwiper1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.tabs-product {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background: red;
+}
+.tabs-style .tab {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
 }
